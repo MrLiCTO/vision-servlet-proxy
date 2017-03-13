@@ -1,0 +1,7 @@
+server:
+  port: 9080
+
+proxy:
+  target:
+    uri: http://localhost/balance
+    pattern: /balance/*
